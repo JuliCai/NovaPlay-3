@@ -416,6 +416,10 @@
     [
       "9e8ee97c-70eb-4512-ad5f-fabf71d66abe",
       "Power Management"
+    ],
+    [
+      "d1d82891-0be9-49d5-808b-34296a85b88c",
+      "Memory"
     ]
   ],
   "text_variables": {}
