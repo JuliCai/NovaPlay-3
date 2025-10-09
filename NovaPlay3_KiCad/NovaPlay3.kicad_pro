@@ -420,6 +420,14 @@
     [
       "d1d82891-0be9-49d5-808b-34296a85b88c",
       "Memory"
+    ],
+    [
+      "2dcf2568-8845-41ed-860c-b15047cd3359",
+      "Buttons & other inputs"
+    ],
+    [
+      "64732a80-f687-409e-9666-ddf09d3acf0c",
+      "Screen & other outputs"
     ]
   ],
   "text_variables": {}

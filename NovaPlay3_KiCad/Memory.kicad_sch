@@ -596,7 +596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c5a3f83-565f-41e5-9c2a-7dc40169224a")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 121.5233 86.36 0)
 			(effects
 				(font
@@ -668,7 +668,7 @@
 		(instances
 			(project "NovaPlay3"
 				(path "/3902e32d-76e7-44cb-8277-c0e17db8d088/d1d82891-0be9-49d5-808b-34296a85b88c"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -684,7 +684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99996745-414b-4c76-8e72-67d3a6c1fff5")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR026"
 			(at 86.36 101.6 0)
 			(effects
 				(font
@@ -734,7 +734,7 @@
 		(instances
 			(project "NovaPlay3"
 				(path "/3902e32d-76e7-44cb-8277-c0e17db8d088/d1d82891-0be9-49d5-808b-34296a85b88c"
-					(reference "#PWR07")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -750,7 +750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba15a9b0-b4ed-49bf-b513-82ee4073d8fe")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR024"
 			(at 119.38 86.36 0)
 			(effects
 				(font
@@ -800,7 +800,7 @@
 		(instances
 			(project ""
 				(path "/3902e32d-76e7-44cb-8277-c0e17db8d088/d1d82891-0be9-49d5-808b-34296a85b88c"
-					(reference "#PWR03")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -816,7 +816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7152dc6-cb5c-4cfe-88d8-dde26afbb26c")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR025"
 			(at 139.7 93.98 0)
 			(effects
 				(font
@@ -866,7 +866,7 @@
 		(instances
 			(project "NovaPlay3"
 				(path "/3902e32d-76e7-44cb-8277-c0e17db8d088/d1d82891-0be9-49d5-808b-34296a85b88c"
-					(reference "#PWR06")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -882,7 +882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0969ad8-8bfa-47cd-92fa-035efd2d1a99")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR027"
 			(at 119.38 115.57 0)
 			(effects
 				(font
@@ -932,7 +932,7 @@
 		(instances
 			(project ""
 				(path "/3902e32d-76e7-44cb-8277-c0e17db8d088/d1d82891-0be9-49d5-808b-34296a85b88c"
-					(reference "#PWR05")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)

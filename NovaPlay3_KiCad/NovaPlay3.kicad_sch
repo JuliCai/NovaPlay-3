@@ -1506,7 +1506,7 @@
 	)
 	(global_label "SCREEN_DC"
 		(shape input)
-		(at 210.82 87.63 0)
+		(at 210.82 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1516,7 +1516,7 @@
 		)
 		(uuid "e91e657c-52c4-40ee-9817-d2ae64383f98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.6908 87.63 0)
+			(at 224.6908 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1536,7 +1536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dbdf99d-2b14-461f-9411-5e1934fb881b")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 195.58 119.38 0)
 			(effects
 				(font
@@ -1586,7 +1586,7 @@
 		(instances
 			(project ""
 				(path "/3902e32d-76e7-44cb-8277-c0e17db8d088"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1789,7 +1789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fef1929-639c-4d34-89e0-3cc127d423dd")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR02"
 			(at 167.64 67.31 0)
 			(effects
 				(font
@@ -1840,7 +1840,7 @@
 		(instances
 			(project "NovaPlay3"
 				(path "/3902e32d-76e7-44cb-8277-c0e17db8d088"
-					(reference "#PWR04")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1856,7 +1856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed9ecf1d-6187-4c62-a5c4-6bcbd0937912")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 170.18 66.0399 0)
 			(effects
 				(font
@@ -1910,7 +1910,7 @@
 		(instances
 			(project "NovaPlay3"
 				(path "/3902e32d-76e7-44cb-8277-c0e17db8d088"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1926,7 +1926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef618947-8ceb-4492-b42a-bb64a7a35186")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 195.58 54.61 0)
 			(effects
 				(font
@@ -1976,8 +1976,92 @@
 		(instances
 			(project ""
 				(path "/3902e32d-76e7-44cb-8277-c0e17db8d088"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 62.23)
+		(size 49.53 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2dcf2568-8845-41ed-860c-b15047cd3359")
+		(property "Sheetname" "Buttons & other inputs"
+			(at 15.24 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "userinputs.kicad_sch"
+			(at 15.24 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NovaPlay3"
+				(path "/3902e32d-76e7-44cb-8277-c0e17db8d088"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 16.51)
+		(size 49.53 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "64732a80-f687-409e-9666-ddf09d3acf0c")
+		(property "Sheetname" "Screen & other outputs"
+			(at 15.24 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "useroutputs.kicad_sch"
+			(at 15.24 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NovaPlay3"
+				(path "/3902e32d-76e7-44cb-8277-c0e17db8d088"
+					(page "5")
 				)
 			)
 		)
